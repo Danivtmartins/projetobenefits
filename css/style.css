@@ -26,7 +26,7 @@ body{
 .main{
   display:flex;
   flex-direction: column;
-  width:; 
+  width:100%; 
 }
 
 
@@ -198,3 +198,105 @@ button{
  border: none;
  cursor: pointer;
 }
+
+/*footer*/
+footer{
+  background-color: #212E3E;
+  display: flex;
+  flex-direction: column;
+  height:367px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.company-name {
+  color:white;
+  height: 30px;
+  padding-top:64px;
+
+}
+
+/*footer horizontal navbar */
+
+#footer-navbar
+{
+  height:30px;
+  width:949px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+  
+  #footer-navlist{
+    display: inline;
+    padding-top: 60px;
+  } 
+  
+  #footer-navlist a {
+    color:#28FF52;
+    text-align: center;
+    height:30px;
+    text-decoration: none;
+  }
+
+  .privacy-policy {
+    color:white;
+    padding-top: 36px;
+    
+  }
+  .privacy-policy a {
+    color:white;  
+  }
+  
+
+  /*social media horizontal list */
+
+  .bottom-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 1294px;
+  }
+
+  #footer-social-list{
+    display: inline;
+  } 
+  
+  #footer-social-list a {
+    color: white;
+    text-align: center;
+    padding: 2px 2px;
+    height:14px;
+    text-decoration: none;
+    background-color: greenyellow;
+  }
+
+  .copyright {
+    background-color: aquamarine;
+  }
+
+  .download {
+    background-color: chocolate;
+    display: flex;
+    flex-direction: column;
+    width:175px;
+    font-size:10px;
+  }
+
+  #stores {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+
+  }
+
+  #stores img {
+    width:80px;
+    height:25px;
+  }
+
+
