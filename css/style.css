@@ -10,6 +10,7 @@
 display:flex;
 justify-content: end;
 background-color:#225E66;
+padding-top:20px;
 padding-right: 32px;
 position:sticky;
 top:0;
@@ -258,6 +259,8 @@ footer{
     align-items: center;
     justify-content: space-between;
     width: 1294px;
+    padding-bottom: 30px;
+  
   }
 
   #footer-social-list{
@@ -267,22 +270,22 @@ footer{
   #footer-social-list a {
     color: white;
     text-align: center;
-    padding: 2px 2px;
+    padding: 2px 15px 0px 0px;
     height:14px;
     text-decoration: none;
-    background-color: greenyellow;
   }
 
   .copyright {
-    background-color: aquamarine;
+    color:white;
   }
 
   .download {
-    background-color: chocolate;
+    color:white;
     display: flex;
     flex-direction: column;
     width:175px;
     font-size:10px;
+    align-items: center;
   }
 
   #stores {
@@ -297,6 +300,7 @@ footer{
   #stores img {
     width:80px;
     height:25px;
+    padding-right: 6px;
   }
 
 
