@@ -362,23 +362,24 @@ footer{
   .container-freebenefits{ 
     display:flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding-left: 48px;
-    padding-right: 48px;
+    align-items: center;
     padding-bottom:50px;
-  padding: 10px;
+  padding: 10px 0;
   width:100%;
   height:397px;
   }
   
   
-  h1{
-    font-size: 32px;
+  .container-freebenefits h1{
+    font-size: 18px;
     font-weight: 400px;
+    padding-right: 68%;
   }
   
   #free-subtitle{
     padding-top:20px;
+    font-size:16px;
+    padding-right: 55%;
   }
   
   
@@ -398,6 +399,7 @@ footer{
   .pushpacks h1 {
     font-size:14px;
     padding-bottom:20px;
+    padding-right: 53%;
   }
   
   /*container cards- free benefits*/
@@ -405,19 +407,18 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    width: 87%;
+    width: 90%;
     height:272px;
     list-style-type: none;
     padding-bottom: 23px;
-    padding-left:30px;
     overflow: auto;
-    white-space: nowrap;
+    gap:20px;
   }
   
   /*card partner - free benefits*/
   
   #free-card-1 {
-    
+    width:100%;
     padding-top: 20px;
   }
   
@@ -430,15 +431,18 @@ footer{
     display:flex;
     flex-direction: column;
     padding-top: 20px;
-    align-items: center;
+    align-items:flex-start;
     justify-content:flex-start;
+    
   
   }
+
   
   #bp-logo {
     width: 110px;
     height: 66px;
-    margin-bottom: 35px;
+    margin-bottom: 30%;
+    margin-left:30%;
   
   }
   
@@ -446,6 +450,9 @@ footer{
     margin-right: 230px;
     margin-bottom: 25px;
     font-weight: 500;
+    font-size: 12px;
+    padding-left:20px;
+    width:50%;
   }
   
   .free-card-footer1 {
@@ -455,22 +462,30 @@ footer{
   height: 96px;
   border-radius: 0 0 20px 20px;
   font-size: 14px;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   }
   
   #label-partner {
-  margin-left: 20px;
+  background-color:#4759D0;
+  margin-left: 15px;
   margin-top:-15px;
-  margin-right:230px;
-  padding-left: 5px;
-  background-color: #4759D0;
+  margin-right:310px;
+  padding-left: 10px;
   font-size: 14px;
+  width:145px;
+  height:30px;
   }
   
   #p-partner {
     margin-left: 20px;
-    margin-top:15px;
-    margin-right:15px;
+    margin-right:20px;
+    margin-top:15px; 
     margin-bottom:10px;
+    width:230px;
+    height:40px;
+    font-size: 12px;
   }
   
   
@@ -482,7 +497,7 @@ footer{
   color:white;
   display:flex;
   flex-direction: column;
-
+  justify-content: space-between;
   }
   
   #h-packs{
@@ -494,6 +509,7 @@ footer{
   
   #p-packs{
   padding-left: 32px;
+  padding-bottom:5px;
   }
   
   
@@ -503,6 +519,7 @@ footer{
     justify-content: space-between;
     align-items:center;
     padding-right: 30px; 
+    padding-bottom:40px;
     height: 80px;
     overflow: auto;
     white-space: nowrap;
@@ -520,14 +537,16 @@ footer{
     
   
   button{
-   width: 200px;
-   height: 20px;
+   width: 90%;
+   height: 48px;
    background-color: #28FF52;
    color:#222222;
    font-weight: 500;
    font-size: 16px;
    border: none;
    cursor: pointer;
+   margin-bottom: 30px;
+   margin-left:18px;
   }
   
   /*footer*/
