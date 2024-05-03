@@ -340,10 +340,9 @@ footer{
     display:flex;
     flex-direction: column;
     width:100%; 
-    height: 100%;
   }
   
-  
+
   /*sessão 1 - disponíveis*/
   
   
@@ -406,11 +405,11 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    width: 100%;
-    height:256px;
+    width: 87%;
+    height:272px;
     list-style-type: none;
     padding-bottom: 23px;
-    background-color: #4759D0;
+    padding-left:30px;
     overflow: auto;
     white-space: nowrap;
   }
@@ -424,7 +423,7 @@ footer{
   
   .free-card-header1 {
     background-color: white;
-    width: 386px;
+    width: 265px;
     height:176px;
     border-radius: 20px 20px 0 0;
     color: black;
@@ -452,8 +451,8 @@ footer{
   .free-card-footer1 {
   color:white;
   background-color:#4759D0;
-  width: 386px;
-  height: 92px;
+  width: 265px;
+  height: 96px;
   border-radius: 0 0 20px 20px;
   font-size: 14px;
   }
@@ -539,7 +538,8 @@ footer{
   .company-name {
     color:white;
     height: 30px;
-    padding-top:64px;
+    padding-top:20px;
+    padding-bottom: 20px;
   
   }
   
@@ -547,16 +547,17 @@ footer{
   
   #footer-navbar
   {
-    height:30px;
+    height:400px;
     width:80%;
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+    
   }
     
     #footer-navlist{
       display: inline;
-      padding-top: 60px;
+      padding-top: 15px;
     } 
     
     #footer-navlist a {
@@ -580,12 +581,13 @@ footer{
   
     .bottom-footer {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       align-items: center;
       justify-content: space-between;
       width: 100%;
       padding-bottom: 30px;
-    
+      background-color: aqua;
+  
     }
   
     #footer-social-list{
