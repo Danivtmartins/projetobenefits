@@ -1,13 +1,13 @@
 
-
-/*header*/
-@media only screen and (min-width: 768px) {
-  
 * { 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/*header*/
+@media only screen and (min-width: 768px) {
+  
 
 .topmenu {
 display:flex;
@@ -477,16 +477,19 @@ footer{
   #packs-container{
   background-color: #225E66;
   width: 90%;
-  height: 211px;
+  height: 300px;
   border-radius: 20px;
   color:white;
+  display:flex;
+  flex-direction: column;
+
   }
   
   #h-packs{
     padding-left: 32px;
-    padding-top: 24px;
+    padding-top: 20px;
     font-size:12px;
-    padding-bottom:13px;
+    padding-bottom:5px;
   }
   
   #p-packs{
@@ -496,25 +499,29 @@ footer{
   
   #know-more {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items:center;
-    padding-right: 32px; 
-    margin-top:30px;
-    height: 64px;
+    padding-right: 30px; 
+    height: 80px;
+    overflow: auto;
+    white-space: nowrap;
   }
   
   ul.thumb-container {
     display: flex;
     flex-direction: row;
-    width: 630px;
-    justify-content: space-between;
-    margin-left: 32px;
+    width: 100%;
+    justify-content:space-between;
+    padding-left: 10px;
+    padding-right:20px;
+    gap: 9px;
     }
     
   
   button{
-   width: 164px;
-   height: 48px;
+   width: 200px;
+   height: 20px;
    background-color: #28FF52;
    color:#222222;
    font-weight: 500;
@@ -538,7 +545,7 @@ footer{
   .company-name {
     color:white;
     height: 30px;
-    padding-top:20px;
+    padding-top:30px;
     padding-bottom: 20px;
   
   }
@@ -570,8 +577,11 @@ footer{
     .privacy-policy {
       color:white;
       padding-top: 36px;
-      
+      padding-left: 60px;
+      padding-right: 60px;
+      padding-bottom: 36px;
     }
+
     .privacy-policy a {
       color:white;  
     }
@@ -586,7 +596,6 @@ footer{
       justify-content: space-between;
       width: 100%;
       padding-bottom: 30px;
-      background-color: aqua;
   
     }
   
@@ -605,6 +614,9 @@ footer{
     .copyright {
       color:white;
       font-size:14px;
+      padding-left:60px;
+      padding-right: 60px;
+      padding-bottom: 30px;
     }
   
     .download {
