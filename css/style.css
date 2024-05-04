@@ -5,325 +5,16 @@
   box-sizing: border-box;
 }
 
-/*header*/
-@media only screen and (min-width: 768px) {
-  
 
-.topmenu {
-display:flex;
-justify-content: end;
-background-color:#225E66;
-padding-top:20px;
-padding-right: 32px;
-position:sticky;
-top:0;
-}
-
-
-body{
-  background-color: #212E3E;
-  min-height: 100vh;
-  width: 100%; 
-  font-family: "Mulish";
-}
-
-.main{
-  display:flex;
-  flex-direction: column;
-  width:100%; 
-  height: 100%;
-}
-
-
-/*sessão 1 - disponíveis*/
-
-
-section.freebenefits{
-background-color: #225E66;
-color:white;
-width: 100%;
-display:flex;
-flex-direction: column;
-align-items: center;
-padding-top: 20px;
-}
-
-/*container sessão 1 - disponíveis*/
-
-.container-freebenefits{ 
-display:flex;
-flex-direction: column;
-align-items: flex-start;
-padding-left: 48px;
-padding-right: 48px;
-padding-bottom:50px;
-
-}
-
-
-h1{
-  font-size: 32px;
-  font-weight: 400px;
-}
-
-#free-subtitle{
-  padding-top:20px;
-}
-
-
-/*container sessão 2 - push packs edp*/
-
-.pushpacks {
-  background-color: white;
-  width: 100%;
-  height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-
-}
-
-.pushpacks h1 {
-  font-size:14px;
-  padding-bottom:20px;
-}
-
-/*container cards- free benefits*/
-.card-container{
-  display: flex;
-  flex-direction: row;
-  justify-content:space-between;
-  width: 1190px;
-  height:256px;
-  list-style-type: none;
-  padding-bottom: 23px;
-}
-
-/*card partner - free benefits*/
-
-#free-card-1 {
-  display: flex;
-  flex-direction: column;
-  padding-top: 20px;
-}
-
-.free-card-header1 {
-  background-color: white;
-  width: 386px;
-  height:176px;
-  border-radius: 20px 20px 0 0;
-  color: black;
-  display:flex;
-  flex-direction: column;
-  padding-top: 20px;
-  align-items: center;
-  justify-content:flex-start;
-
-}
-
-#bp-logo {
-  width: 110px;
-  height: 66px;
-  margin-bottom: 35px;
-
-}
-
-#oferta-parceiro {
-  margin-right: 230px;
-  margin-bottom: 25px;
-  font-weight: 500;
-}
-
-.free-card-footer1 {
-color:white;
-background-color:#4759D0;
-width: 386px;
-height: 92px;
-border-radius: 0 0 20px 20px;
-font-size: 14px;
-}
-
-#label-partner {
-margin-left: 20px;
-margin-top:-15px;
-margin-right:230px;
-padding-left: 5px;
-background-color: #4759D0;
-font-size: 14px;
-}
-
-#p-partner {
-  margin-left: 20px;
-  margin-top:15px;
-  margin-right:15px;
-  margin-bottom:10px;
-}
-
-
-#packs-container{
-background-color: #225E66;
-width: 1190px;
-height: 211px;
-border-radius: 20px;
-color:white;
-}
-
-#h-packs{
-  padding-left: 32px;
-  padding-top: 24px;
-  font-size:12px;
-  padding-bottom:13px;
-}
-
-#p-packs{
-padding-left: 32px;
-}
-
-
-#know-more {
-  display: flex;
-  justify-content: space-between;
-  align-items:center;
-  padding-right: 32px; 
-  margin-top:30px;
-  height: 64px;
-}
-
-ul.thumb-container {
-  display: flex;
-  flex-direction: row;
-  width: 630px;
-  justify-content: space-between;
-  margin-left: 32px;
-  }
-  
-
-button{
- width: 164px;
- height: 48px;
- background-color: #28FF52;
- color:#222222;
- font-weight: 500;
- font: size 16px;
- border: none;
- cursor: pointer;
-}
-
-/*footer*/
-footer{
-  background-color: #212E3E;
-  display: flex;
-  flex-direction: column;
-  height:367px;
-  align-items: center;
-  justify-content: space-between;
-
-}
-
-.company-name {
-  color:white;
-  height: 30px;
-  padding-top:64px;
-
-}
-
-/*footer horizontal navbar */
-
-#footer-navbar
-{
-  height:30px;
-  width:949px;
-  display:flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-  
-  #footer-navlist{
-    display: inline;
-    padding-top: 60px;
-  } 
-  
-  #footer-navlist a {
-    color:#28FF52;
-    text-align: center;
-    height:30px;
-    text-decoration: none;
-  }
-
-  .privacy-policy {
-    color:white;
-    padding-top: 36px;
-    
-  }
-  .privacy-policy a {
-    color:white;  
-  }
-  
-
-  /*social media horizontal list */
-
-  .bottom-footer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 1294px;
-    padding-bottom: 30px;
-  
-  }
-
-  #footer-social-list{
-    display: inline;
-  } 
-  
-  #footer-social-list a {
-    color: white;
-    text-align: center;
-    padding: 2px 15px 0px 0px;
-    height:14px;
-    text-decoration: none;
-  }
-
-  .copyright {
-    color:white;
-    font-size:14px;
-  }
-
-  .download {
-    color:white;
-    display: flex;
-    flex-direction: column;
-    width:175px;
-    font-size:10px;
-    align-items: center;
-  }
-
-  #stores {
-    padding-top: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    list-style-type: none;
-
-  }
-
-  #stores img {
-    width:80px;
-    height:25px;
-    padding-right: 6px;
-  }
-
-}
 
 /* For mobile phones: */
-
 
 .topmenu {
   display:flex;
   justify-content: end;
   background-color:#225E66;
   padding-top:20px;
+  padding-right:20px;
   position:sticky;
   top:0;
   }
@@ -411,7 +102,8 @@ footer{
     height:272px;
     list-style-type: none;
     padding-bottom: 23px;
-    overflow: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
     gap:20px;
   }
   
@@ -504,12 +196,12 @@ footer{
     padding-left: 32px;
     padding-top: 20px;
     font-size:12px;
-    padding-bottom:5px;
+    padding-bottom:15px;
   }
   
   #p-packs{
   padding-left: 32px;
-  padding-bottom:5px;
+  padding-bottom:40px;
   }
   
   
@@ -520,8 +212,8 @@ footer{
     align-items:center;
     padding-right: 30px; 
     padding-bottom:40px;
-    height: 80px;
-    overflow: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
     white-space: nowrap;
   }
   
@@ -536,17 +228,17 @@ footer{
     }
     
   
-  button{
-   width: 90%;
-   height: 48px;
-   background-color: #28FF52;
-   color:#222222;
-   font-weight: 500;
-   font-size: 16px;
-   border: none;
-   cursor: pointer;
-   margin-bottom: 30px;
-   margin-left:18px;
+  button {
+    width: 90%;
+    height: 55px;
+    background-color: #28FF52;
+    color:#222222;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-left:18px;
   }
   
   /*footer*/
@@ -663,7 +355,316 @@ footer{
     }
   
   
+  /*header*/
+@media only screen and (min-width: 768px) {
   
+
+  .topmenu {
+  display:flex;
+  justify-content: end;
+  background-color:#225E66;
+  padding-top:20px;
+  padding-right: 32px;
+  position:sticky;
+  top:0;
+  }
+  
+  
+  body{
+    background-color: #212E3E;
+    min-height: 100vh;
+    width: 100%; 
+    font-family: "Mulish";
+  }
+  
+  .main{
+    display:flex;
+    flex-direction: column;
+    width:100%; 
+    height: 100%;
+  }
+  
+  
+  /*sessão 1 - disponíveis*/
+  
+  
+  section.freebenefits{
+  background-color: #225E66;
+  color:white;
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  }
+  
+  /*container sessão 1 - disponíveis*/
+  
+  .container-freebenefits{ 
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom:50px;
+  
+  }
+  
+  
+  h1{
+    font-size: 32px;
+    font-weight: 400px;
+  }
+  
+  #free-subtitle{
+    padding-top:20px;
+  }
+  
+  
+  /*container sessão 2 - push packs edp*/
+  
+  .pushpacks {
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+  }
+  
+  .pushpacks h1 {
+    font-size:14px;
+    padding-bottom:20px;
+  }
+  
+  /*container cards- free benefits*/
+  .card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 1190px;
+    height:256px;
+    list-style-type: none;
+    padding-bottom: 23px;
+  }
+  
+  /*card partner - free benefits*/
+  
+  #free-card-1 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  
+  .free-card-header1 {
+    background-color: white;
+    width: 386px;
+    height:176px;
+    border-radius: 20px 20px 0 0;
+    color: black;
+    display:flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+    justify-content:flex-start;
+  
+  }
+  
+  #bp-logo {
+    width: 110px;
+    height: 66px;
+    margin-bottom: 35px;
+  
+  }
+  
+  #oferta-parceiro {
+    margin-right: 230px;
+    margin-bottom: 25px;
+    font-weight: 500;
+  }
+  
+  .free-card-footer1 {
+  color:white;
+  background-color:#4759D0;
+  width: 386px;
+  height: 92px;
+  border-radius: 0 0 20px 20px;
+  font-size: 14px;
+  }
+  
+  #label-partner {
+  margin-left: 20px;
+  margin-top:-15px;
+  margin-right:230px;
+  padding-left: 5px;
+  background-color: #4759D0;
+  font-size: 14px;
+  }
+  
+  #p-partner {
+    margin-left: 20px;
+    margin-top:15px;
+    margin-right:15px;
+    margin-bottom:10px;
+  }
+  
+  
+  #packs-container{
+  background-color: #225E66;
+  width: 1190px;
+  height: 211px;
+  border-radius: 20px;
+  color:white;
+  }
+  
+  #h-packs{
+    padding-left: 32px;
+    padding-top: 24px;
+    font-size:12px;
+    padding-bottom:13px;
+  }
+  
+  #p-packs{
+  padding-left: 32px;
+  }
+  
+  
+  #know-more {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-right: 32px; 
+    margin-top:30px;
+    height: 64px;
+  }
+  
+  ul.thumb-container {
+    display: flex;
+    flex-direction: row;
+    width: 630px;
+    justify-content: space-between;
+    margin-left: 32px;
+    }
+    
+  
+  button{
+   width: 164px;
+   height: 48px;
+   background-color: #28FF52;
+   color:#222222;
+   font-weight: 500;
+   font: size 16px;
+   border: none;
+   cursor: pointer;
+  }
+  
+  /*footer*/
+  footer{
+    background-color: #212E3E;
+    display: flex;
+    flex-direction: column;
+    height:367px;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  
+  .company-name {
+    color:white;
+    height: 30px;
+    padding-top:64px;
+  
+  }
+  
+  /*footer horizontal navbar */
+  
+  #footer-navbar
+  {
+    height:30px;
+    width:949px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+    
+    #footer-navlist{
+      display: inline;
+      padding-top: 60px;
+    } 
+    
+    #footer-navlist a {
+      color:#28FF52;
+      text-align: center;
+      height:30px;
+      text-decoration: none;
+    }
+  
+    .privacy-policy {
+      color:white;
+      padding-top: 36px;
+      
+    }
+    .privacy-policy a {
+      color:white;  
+    }
+    
+  
+    /*social media horizontal list */
+  
+    .bottom-footer {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      width: 1294px;
+      padding-bottom: 30px;
+    
+    }
+  
+    #footer-social-list{
+      display: inline;
+    } 
+    
+    #footer-social-list a {
+      color: white;
+      text-align: center;
+      padding: 2px 15px 0px 0px;
+      height:14px;
+      text-decoration: none;
+    }
+  
+    .copyright {
+      color:white;
+      font-size:14px;
+    }
+  
+    .download {
+      color:white;
+      display: flex;
+      flex-direction: column;
+      width:175px;
+      font-size:10px;
+      align-items: center;
+    }
+  
+    #stores {
+      padding-top: 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      list-style-type: none;
+  
+    }
+  
+    #stores img {
+      width:80px;
+      height:25px;
+      padding-right: 6px;
+    }
+  
+  }
   
   
   
