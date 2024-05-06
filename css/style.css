@@ -201,7 +201,7 @@
   
   #p-packs{
   padding-left: 32px;
-  padding-bottom:40px;
+  padding-bottom:30px;
   }
   
   
@@ -210,11 +210,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-items:center;
-    padding-right: 30px; 
+    padding-right: 0px; 
     padding-bottom:40px;
-
-
-
   }
   
   ul.thumb-container {
@@ -242,7 +239,7 @@
     border: none;
     cursor: pointer;
     margin-bottom: 30px;
-    margin-left:18px;
+    margin-top:20px;
   }
   
   /*footer*/
@@ -430,9 +427,11 @@
     width: 100%;
     height: 400px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+    padding-left: 48px;
+    padding-right: 48px;
   
   }
   
@@ -446,7 +445,7 @@
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    width: 1190px;
+    width: 100%;
     list-style-type: none;
     padding-bottom: 23px;
   }
@@ -477,13 +476,14 @@
     width: 110px;
     height: 66px;
     margin-bottom: 35px;
-  
+    margin-left: 0;
   }
   
   #oferta-parceiro {
     margin-right: 230px;
     margin-bottom: 25px;
     font-weight: 500;
+    padding-left: 30px;
   }
   
   .free-card-footer1 {
@@ -499,7 +499,6 @@
   margin-left: 20px;
   margin-top:-15px;
   margin-right:230px;
-  padding-left: 5px;
   background-color: #4759D0;
   font-size: 14px;
   }
@@ -514,7 +513,7 @@
   
   #packs-container{
   background-color: #225E66;
-  width: 1190px;
+  width: 100%;
   height: 211px;
   border-radius: 20px;
   color:white;
@@ -536,9 +535,9 @@
     display: flex;
     justify-content: space-between;
     align-items:center;
-    padding-right: 32px; 
+    padding-right: 32px;
+    padding-left: 32px; 
     flex-direction:row;
-    background-color: #4759D0;
   }
   
   ul.thumb-container {
@@ -547,7 +546,7 @@
     width: 630px;
     justify-content: space-between;
     align-items: flex-start;
-   
+    padding-left: 0px;
     }
     
   
@@ -560,6 +559,7 @@
    font-size: 16px;
    border: none;
    cursor: pointer;
+   margin-bottom: 0px;
 
   }
   
@@ -621,7 +621,7 @@
       flex-direction: row;
       align-items: center;
       justify-content: space-between;
-      width: 1294px;
+      width: 100%;
       padding-bottom: 30px;
     
     }
