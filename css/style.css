@@ -1,5 +1,4 @@
-
-* { 
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,421 +9,428 @@
 /* For mobile phones: */
 
 .topmenu {
-  display:flex;
+  display: flex;
   justify-content: end;
-  background-color:#225E66;
-  padding-top:20px;
-  padding-right:20px;
-  position:sticky;
-  top:0;
-  }
-  
-  
-  body{
-    background-color: #212E3E;
-    min-height: 100vh;
-    width: 100%; 
-    font-family: "Mulish";
-  }
-  
-  .main{
-    display:flex;
-    flex-direction: column;
-    width:100%; 
-  }
-  
-
-  /*sessão 1 - disponíveis*/
-  
-  
-  section.freebenefits{
   background-color: #225E66;
-  color:white;
+  padding-top: 20px;
+  padding-right: 20px;
+  position: sticky;
+  top: 0;
+}
+
+
+body {
+  background-color: #212E3E;
+  min-height: 100vh;
   width: 100%;
-  display:flex;
-  height:397px;
+  font-family: "Mulish";
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+/*sessão 1 - disponíveis*/
+
+
+section.freebenefits {
+  background-color: #225E66;
+  color: white;
+  width: 100%;
+  display: flex;
+  height: 397px;
   flex-direction: column;
   align-items: center;
   padding-top: 20px;
-  }
-  
-  /*container sessão 1 - disponíveis*/
-  
-  .container-freebenefits{ 
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom:50px;
-  padding: 10px 0;
-  width:100%;
-  height:397px;
-  }
-  
-  
-  .container-freebenefits h1{
-    font-size: 18px;
-    font-weight: 400px;
-    padding-right: 68%;
-  }
-  
-  #free-subtitle{
-    padding-top:20px;
-    font-size:16px;
-    padding-right: 55%;
-  }
-  
-  
-  /*container sessão 2 - push packs edp*/
-  
-  .pushpacks {
-    background-color: white;
-    width: 100%;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  
-  }
-  
-  .pushpacks h1 {
-    font-size:14px;
-    padding-bottom:20px;
-    padding-right: 53%;
-  }
-  
-  /*container cards- free benefits*/
-  .card-container{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    width: 90%;
-    list-style-type: none;
-    padding-bottom: 23px;
-    overflow-x: auto;
-    overflow-y: hidden;
-    gap:20px;
-    scrollbar-width: none;
-  }
-  
-  /*card partner - free benefits*/
-  
-  #free-card-1 {
-    width:100%;
-    padding-top: 20px;
-  }
-  
-  .free-card-header1 {
-    background-color: white;
-    width: 265px;
-    height:176px;
-    border-radius: 20px 20px 0 0;
-    color: black;
-    display:flex;
-    flex-direction: column;
-    padding-top: 20px;
-    align-items:flex-start;
-    justify-content:flex-start;
-    
-  
-  }
+}
 
-  
-  #bp-logo {
-    width: 110px;
-    height: 66px;
-    margin-bottom: 30%;
-    margin-left:30%;
-  
-  }
-  
-  #oferta-parceiro {
-    margin-right: 230px;
-    margin-bottom: 25px;
-    font-weight: 500;
-    font-size: 12px;
-    padding-left:20px;
-    width:50%;
-  }
-  
-  .free-card-footer1 {
-  color:white;
-  background-color:#4759D0;
+/*container sessão 1 - disponíveis*/
+
+.container-freebenefits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+  padding: 10px 0;
+  width: 100%;
+  height: 397px;
+}
+
+
+.container-freebenefits h1 {
+  font-size: 18px;
+  font-weight: 400px;
+  padding-right: 68%;
+}
+
+#free-subtitle {
+  padding-top: 20px;
+  font-size: 16px;
+  padding-right: 55%;
+}
+
+
+/*container sessão 2 - push packs edp*/
+
+.pushpacks {
+  background-color: white;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.pushpacks h1 {
+  font-size: 14px;
+  padding-bottom: 20px;
+  padding-right: 53%;
+}
+
+/*container cards- free benefits*/
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  list-style-type: none;
+  padding-bottom: 23px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  gap: 20px;
+  scrollbar-width: none;
+}
+
+/*card partner - free benefits*/
+
+#free-card-1 {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.free-card-header1 {
+  background-color: white;
+  width: 265px;
+  height: 176px;
+  border-radius: 20px 20px 0 0;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+
+}
+
+
+#bp-logo {
+  width: 110px;
+  height: 66px;
+  margin-bottom: 30%;
+  margin-left: 30%;
+
+}
+
+#oferta-parceiro {
+  margin-right: 230px;
+  margin-bottom: 25px;
+  font-weight: 500;
+  font-size: 12px;
+  padding-left: 20px;
+  width: 50%;
+}
+
+.free-card-footer1 {
+  color: white;
+  background-color: #4759D0;
   width: 265px;
   height: 96px;
   border-radius: 0 0 20px 20px;
   font-size: 14px;
-  display:flex;
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  }
-  
-  #label-partner {
-  background-color:#4759D0;
+}
+
+#label-partner {
+  background-color: #4759D0;
   margin-left: 15px;
-  margin-top:-15px;
-  margin-right:310px;
+  margin-top: -15px;
+  margin-right: 310px;
   padding-left: 10px;
   font-size: 14px;
-  width:145px;
-  height:30px;
-  }
-  
-  #p-partner {
-    margin-left: 20px;
-    margin-right:20px;
-    margin-top:15px; 
-    margin-bottom:10px;
-    width:230px;
-    height:40px;
-    font-size: 12px;
-  }
-  
-  
-  #packs-container{
+  width: 145px;
+  height: 30px;
+}
+
+#p-partner {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  width: 230px;
+  height: 40px;
+  font-size: 12px;
+}
+
+
+#packs-container {
   background-color: #225E66;
   width: 90%;
   height: 300px;
   border-radius: 20px;
-  color:white;
-  display:flex;
+  color: white;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
-  }
-  
-  #h-packs{
-    padding-left: 32px;
-    padding-top: 20px;
-    font-size:12px;
-    padding-bottom:15px;
-  }
-  
-  #p-packs{
+}
+
+#h-packs {
   padding-left: 32px;
-  padding-bottom:30px;
-  }
-  
-  
-  #know-more {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items:center;
-    padding-right: 0px; 
-    padding-bottom:40px;
-  }
-  
-  ul.thumb-container {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content:space-between;
-    padding-left: 10px;
-    padding-right:10px;
-    gap: 9px;
-    overflow-x: auto;
-    overflow-y: hidden;
-    white-space: nowrap;
-    scrollbar-width: none;
-    }
-    
-  
-  button {
-    width: 90%;
-    height: 55px;
-    background-color: #28FF52;
-    color:#222222;
-    font-weight: 500;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    margin-bottom: 30px;
-    margin-top:20px;
-  }
-  
-  /*footer*/
-  footer{
-    background-color: #212E3E;
-    display: flex;
-    flex-direction: column;
-    height:367px;
-    width:100%;
-    align-items: center;
-    justify-content: space-between;
-  
-  }
-  
-  .company-name {
-    color:white;
-    height: 30px;
-    padding-top:30px;
-    padding-bottom: 20px;
-  
-  }
-  
-  /*footer horizontal navbar */
-  
-  #footer-navbar
-  {
-    height:400px;
-    width:80%;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-  }
-    
-    #footer-navlist{
-      display: inline;
-      padding-top: 15px;
-    } 
-    
-    #footer-navlist a {
-      color:#28FF52;
-      text-align: center;
-      height:30px;
-      text-decoration: none;
-    }
-  
-    .privacy-policy {
-      color:white;
-      padding-top: 36px;
-      padding-left: 60px;
-      padding-right: 60px;
-      padding-bottom: 36px;
-      text-align: center;
-    }
+  padding-top: 20px;
+  font-size: 12px;
+  padding-bottom: 15px;
+}
 
-    .privacy-policy a {
-      color:white;  
-    }
-    
-  
-    /*social media horizontal list */
-  
-    .bottom-footer {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
-      width: 100%;
-      padding-bottom: 30px;
-  
-    }
-  
-    #footer-social-list{
-      display: inline;
-    } 
-    
-    #footer-social-list a {
-      color: white;
-      text-align: center;
-      padding: 2px 15px 0px 0px;
-      height:14px;
-      text-decoration: none;
-    }
-  
-    .copyright {
-      color:white;
-      font-size:14px;
-      padding-left:60px;
-      padding-right: 60px;
-      padding-bottom: 30px;
-      padding-top: 30px;
-      text-align: center;
-    }
-  
-    .download {
-      color:white;
-      display: flex;
-      flex-direction: column;
-      width:175px;
-      font-size:10px;
-      align-items: center;
-    }
-  
-    #stores {
-      padding-top: 10px;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      list-style-type: none;
-  
-    }
-  
-    #stores img {
-      width:80px;
-      height:25px;
-      padding-right: 6px;
-    }
-  
-  
-  /*header*/
-@media only screen and (min-width: 768px) {
-  
+#p-packs {
+  padding-left: 32px;
+  padding-bottom: 30px;
+}
 
-  .topmenu {
-  display:flex;
-  justify-content: end;
-  background-color:#225E66;
-  padding-top:20px;
-  padding-right: 32px;
-  position:sticky;
-  top:0;
-  }
-  
-  
-  body{
-    background-color: #212E3E;
-    min-height: 100vh;
-    width: 100%; 
-    font-family: "Mulish";
-  }
-  
-  .main{
-    display:flex;
-    flex-direction: column;
-    width:100%; 
-    height: 100%;
-  }
-  
-  
-  /*sessão 1 - disponíveis*/
-  
-  
-  section.freebenefits{
+
+#know-more {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 0px;
+  padding-bottom: 40px;
+}
+
+ul.thumb-container {
+  display: flex;
+  flex-direction: row;
   width: 100%;
-  display:flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  gap: 9px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scrollbar-width: none;
+}
+
+
+button {
+  width: 90%;
+  height: 55px;
+  background-color: #28FF52;
+  color: #222222;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+button:hover {
+  transition-delay: .2s;
+  width: 100%;
+  background-color: #FFF222;
+  color: #fff;
+  font-weight: 500;
+  font-size: 26px;
+}
+
+/*footer*/
+footer {
+  background-color: #212E3E;
+  display: flex;
+  flex-direction: column;
+  height: 367px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.company-name {
+  color: white;
+  height: 30px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+
+}
+
+/*footer horizontal navbar */
+
+#footer-navbar {
+  height: 400px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+#footer-navlist {
+  display: inline;
+  padding-top: 15px;
+}
+
+#footer-navlist a {
+  color: #28FF52;
+  text-align: center;
+  height: 30px;
+  text-decoration: none;
+}
+
+.privacy-policy {
+  color: white;
+  padding-top: 36px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 36px;
+  text-align: center;
+}
+
+.privacy-policy a {
+  color: white;
+}
+
+
+/*social media horizontal list */
+
+.bottom-footer {
+  display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 20px;
-  }
-  
-  /*container sessão 1 - disponíveis*/
-  
-  .container-freebenefits{ 
-  display:flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 30px;
+
+}
+
+#footer-social-list {
+  display: inline;
+}
+
+#footer-social-list a {
+  color: white;
+  text-align: center;
+  padding: 2px 15px 0px 0px;
+  height: 14px;
+  text-decoration: none;
+}
+
+.copyright {
+  color: white;
+  font-size: 14px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.download {
+  color: white;
+  display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding-left: 48px;
-  padding-right: 48px;
-  padding-bottom:50px;
-  
+  width: 175px;
+  font-size: 10px;
+  align-items: center;
+}
+
+#stores {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+
+}
+
+#stores img {
+  width: 80px;
+  height: 25px;
+  padding-right: 6px;
+}
+
+
+/*header*/
+@media only screen and (min-width: 768px) {
+
+
+  .topmenu {
+    display: flex;
+    justify-content: end;
+    background-color: #225E66;
+    padding-top: 20px;
+    padding-right: 32px;
+    position: sticky;
+    top: 0;
   }
-  
-  
-  h1{
+
+
+  body {
+    background-color: #212E3E;
+    min-height: 100vh;
+    width: 100%;
+    font-family: "Mulish";
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  /*sessão 1 - disponíveis*/
+
+
+  section.freebenefits {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  /*container sessão 1 - disponíveis*/
+
+  .container-freebenefits {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 50px;
+
+  }
+
+
+  h1 {
     font-size: 32px;
     font-weight: 400px;
   }
-  
-  #free-subtitle{
-    padding-top:20px;
+
+  #free-subtitle {
+    padding-top: 20px;
   }
-  
-  
+
+
   /*container sessão 2 - push packs edp*/
-  
+
   .pushpacks {
     background-color: white;
     width: 100%;
@@ -435,114 +441,114 @@
     flex-direction: column;
     padding-left: 48px;
     padding-right: 48px;
-  
+
   }
-  
+
   .pushpacks h1 {
-    font-size:14px;
-    padding-bottom:20px;
+    font-size: 14px;
+    padding-bottom: 20px;
   }
-  
+
   /*container cards- free benefits*/
   .card-container {
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     width: 100%;
     list-style-type: none;
     padding-bottom: 23px;
   }
-  
+
   /*card partner - free benefits*/
-  
+
   #free-card-1 {
     display: flex;
     flex-direction: column;
     padding-top: 20px;
   }
-  
+
   .free-card-header1 {
     background-color: white;
     width: 386px;
-    height:176px;
+    height: 176px;
     border-radius: 20px 20px 0 0;
     color: black;
-    display:flex;
+    display: flex;
     flex-direction: column;
     padding-top: 20px;
     align-items: center;
-    justify-content:flex-start;
-  
+    justify-content: flex-start;
+
   }
-  
+
   #bp-logo {
     width: 110px;
     height: 66px;
     margin-bottom: 35px;
     margin-left: 0;
   }
-  
+
   #oferta-parceiro {
     margin-right: 230px;
     margin-bottom: 25px;
     font-weight: 500;
     padding-left: 30px;
   }
-  
+
   .free-card-footer1 {
-  color:white;
-  background-color:#4759D0;
-  width: 386px;
-  height: 92px;
-  border-radius: 0 0 20px 20px;
-  font-size: 14px;
+    color: white;
+    background-color: #4759D0;
+    width: 386px;
+    height: 92px;
+    border-radius: 0 0 20px 20px;
+    font-size: 14px;
   }
-  
+
   #label-partner {
-  margin-left: 20px;
-  margin-top:-15px;
-  margin-right:230px;
-  background-color: #4759D0;
-  font-size: 14px;
+    margin-left: 20px;
+    margin-top: -15px;
+    margin-right: 230px;
+    background-color: #4759D0;
+    font-size: 14px;
   }
-  
+
   #p-partner {
     margin-left: 20px;
-    margin-top:15px;
-    margin-right:15px;
-    margin-bottom:10px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
   }
-  
-  
-  #packs-container{
-  background-color: #225E66;
-  width: 100%;
-  height: 211px;
-  border-radius: 20px;
-  color:white;
+
+
+  #packs-container {
+    background-color: #225E66;
+    width: 100%;
+    height: 211px;
+    border-radius: 20px;
+    color: white;
   }
-  
-  #h-packs{
+
+  #h-packs {
     padding-left: 32px;
     padding-top: 24px;
-    font-size:12px;
-    padding-bottom:13px;
+    font-size: 12px;
+    padding-bottom: 13px;
   }
-  
-  #p-packs{
-  padding-left: 32px;
+
+  #p-packs {
+    padding-left: 32px;
   }
-  
-  
+
+
   #know-more {
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     padding-right: 32px;
-    padding-left: 32px; 
-    flex-direction:row;
+    padding-left: 32px;
+    flex-direction: row;
   }
-  
+
   ul.thumb-container {
     display: flex;
     flex-direction: row;
@@ -550,131 +556,127 @@
     justify-content: space-between;
     align-items: flex-start;
     padding-left: 0px;
-    }
-    
-  
-  button{
-   width: 164px;
-   height: 48px;
-   background-color: #28FF52;
-   color:#222222;
-   font-weight: 500;
-   font-size: 16px;
-   border: none;
-   cursor: pointer;
-   margin-bottom: 0px;
+  }
+
+
+  button {
+    width: 164px;
+    height: 48px;
+    background-color: #28FF52;
+    color: #222222;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 0px;
 
   }
-  
+
   /*footer*/
-  footer{
+  footer {
     background-color: #212E3E;
     display: flex;
     flex-direction: column;
-    height:367px;
+    height: 367px;
     align-items: center;
     justify-content: space-between;
-  
+
   }
-  
+
   .company-name {
-    color:white;
+    color: white;
     height: 30px;
-    padding-top:64px;
-  
+    padding-top: 64px;
+
   }
-  
+
   /*footer horizontal navbar */
-  
-  #footer-navbar
-  {
-    width:949px;
-    display:flex;
+
+  #footer-navbar {
+    width: 949px;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-    
-    #footer-navlist{
-      display: inline;
-      padding-top: 60px;
-    } 
-    
-    #footer-navlist a {
-      color:#28FF52;
-      text-align: center;
-      height:30px;
-      text-decoration: none;
-    }
-  
-    .privacy-policy {
-      color:white;
-      padding-top: 36px;
-      
-    }
-    .privacy-policy a {
-      color:white;  
-    }
-    
-  
-    /*social media horizontal list */
-  
-    .bottom-footer {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-      width: 100%;
-      padding-bottom: 30px;
-      padding-right: 48px;
-      padding-left: 48px;
-    
-    }
-  
-    #footer-social-list{
-      display: inline;
-    } 
-    
-    #footer-social-list a {
-      color: white;
-      text-align: center;
-      padding: 2px 15px 0px 0px;
-      height:14px;
-      text-decoration: none;
-    }
-  
-    .copyright {
-      color:white;
-      font-size:14px;
-      padding-bottom:0;
-      padding-top: 0;
-    }
-  
-    .download {
-      color:white;
-      display: flex;
-      flex-direction: column;
-      width:175px;
-      font-size:10px;
-      align-items: center;
-    }
-  
-    #stores {
-      padding-top: 10px;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      list-style-type: none;
-  
-    }
-  
-    #stores img {
-      width:80px;
-      height:25px;
-      padding-right: 6px;
-    }
-  
-  }
-  
-  
-  
 
+  #footer-navlist {
+    display: inline;
+    padding-top: 60px;
+  }
+
+  #footer-navlist a {
+    color: #28FF52;
+    text-align: center;
+    height: 30px;
+    text-decoration: none;
+  }
+
+  .privacy-policy {
+    color: white;
+    padding-top: 36px;
+
+  }
+
+  .privacy-policy a {
+    color: white;
+  }
+
+
+  /*social media horizontal list */
+
+  .bottom-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 30px;
+    padding-right: 48px;
+    padding-left: 48px;
+
+  }
+
+  #footer-social-list {
+    display: inline;
+  }
+
+  #footer-social-list a {
+    color: white;
+    text-align: center;
+    padding: 2px 15px 0px 0px;
+    height: 14px;
+    text-decoration: none;
+  }
+
+  .copyright {
+    color: white;
+    font-size: 14px;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .download {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+    font-size: 10px;
+    align-items: center;
+  }
+
+  #stores {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+
+  }
+
+  #stores img {
+    width: 80px;
+    height: 25px;
+    padding-right: 6px;
+  }
+
+}
