@@ -240,14 +240,7 @@ button {
   margin-bottom: 30px;
   margin-top: 20px;
 }
-button:hover {
-  transition-delay: .2s;
-  width: 100%;
-  background-color: #FFF222;
-  color: #fff;
-  font-weight: 500;
-  font-size: 26px;
-}
+
 
 /*footer*/
 footer {
