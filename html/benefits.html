@@ -7,9 +7,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="..\css\benefits.css"> <!--chama o arquivo css externo-->
-    <script async
-     type="text/javascript" src="/./scripts/main.js"></script>
-
+     <script async
+     type="text/javascript" src="/./scripts/category.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- This gives the browser instructions on how to control the page's dimensions and scaling.-->
@@ -25,14 +24,14 @@
                 <div>XX</div>
                 <span>to use</span>
             </div>
-            
+
             <div class="progress-bar">
                 <div class="bar">
                     <div class="green-bar"></div>
                 </div>
                 <div class="labels">
-                    <span id="used-value">used xx</span>
-                    <span id="total-value">from xx</span>
+                    <span id="used-value">used $60</span>
+                    <span id="total-value">from $100</span>
                 </div>
             </div>
         </div>
@@ -77,6 +76,17 @@
         <div id="free-card-2">
             <div class="free-card-header2">
                 <span id="oferta-parceiro">Offer</span>
+                
+            </div>
+            <div class="free-card-footer2">
+                <h2 id="label-partner">Fashion Partner</h2>
+                <p id="p-partner">Até 2% de desconto adicional na energia e o dobro dos dados móveis</p>
+            </div>
+        </div>
+
+        <div id="free-card-2">
+            <div class="free-card-header2">
+                <span id="oferta-parceiro">Offer</span>
             </div>
             <div class="free-card-footer2">
                 <h2 id="label-partner">Hotel Partner</h2>
@@ -94,46 +104,20 @@
                 <img src="..\images\location-icon.png">
                 New York</div>
         </div>
-        <div class="categories-list">
-            <div class="categories">
-                <img src="">   
-                <h3>All</h3>
-            </div>
-            <div class="categories">
-                <img src="">   
-                <h3>Travel</h3>
-            </div>
-            <div class="categories">
-                <img src="">   
-                <h3>Concerts</h3>
-            </div>
-            <div class="categories">
-                <img src="">   
-                <h3>Fashion</h3>
-            </div>
-            <div class="categories">
-                <img src="">   
-                <h3>Food</h3>
-            </div>
-            <div class="categories">
-                <img src="">   
-                <h3>Food</h3>
-            </div>
-            <div class="categories">
-                <img src="">   
-                <h3>Food</h3>
-            </div>
-            <div class="categories">
-                <img src="">   
-                <h3>Food</h3>
-            </div>
+        <div class="categories-list"> <!-- Control buttons -->
+            <button class="categories active" category="all" >All</button>
+            <button class="categories" category="travel" >Travel</button>
+            <button class="categories" category="show">Shows</button>
+            <button class="categories" category="fashion">Fashion</button>
+            <button class="categories" category="food">Food</button> 
+            <button class="categories" category="books">Books</button> 
+            <button class="categories" category="beauty">Beauty</button>
         </div>
 
         <div class="list-result">
-            <div id="card-result">
+            <div class="card-result" category="fashion">
                 <div class="card-header3">
-                    <span id="oferta-parceiro">Offer</span>
-                    
+                    <span id="oferta-parceiro">Offer</span>            
                 </div>
                 <div class="card-footer3">
                     <h2 id="label-partner">Fashion Partner</h2>
@@ -141,10 +125,9 @@
                 </div>
             </div>
 
-            <div id="card-result">
+            <div class="card-result" category="travel">
                 <div class="card-header3">
                     <span id="oferta-parceiro">Offer</span>
-                    
                 </div>
                 <div class="card-footer3">
                     <h2 id="label-partner">Hotel Partner</h2>
@@ -152,7 +135,7 @@
                 </div>
             </div>
 
-            <div id="card-result">
+            <div class="card-result" category="food">
                 <div class="card-header3">
                     <span id="oferta-parceiro">Offer</span>
                     
@@ -162,23 +145,33 @@
                     <p id="p-partner">Até 2% de desconto adicional na energia e o dobro dos dados móveis</p>
                 </div>
             </div>
-            <div id="card-result">
+
+            <div class="card-result" category="food">
                 <div class="card-header3">
-                    <span id="oferta-parceiro">Offer</span>
-                    
+                    <span id="oferta-parceiro">Offer</span>                    
                 </div>
                 <div class="card-footer3">
                     <h2 id="label-partner">Food Partner</h2>
                     <p id="p-partner">Até 2% de desconto adicional na energia e o dobro dos dados móveis</p>
                 </div>
             </div>
-            <div id="card-result">
+
+            <div class="card-result" category="books">
                 <div class="card-header3">
-                    <span id="oferta-parceiro">Offer</span>
-                    
+                    <span id="oferta-parceiro">Offer</span>                    
                 </div>
                 <div class="card-footer3">
-                    <h2 id="label-partner">Food Partner</h2>
+                    <h2 id="label-partner">Book Partner</h2>
+                    <p id="p-partner">Até 2% de desconto adicional na energia e o dobro dos dados móveis</p>
+                </div>
+            </div>
+
+            <div class="card-result" category="beauty">
+                <div class="card-header3">
+                    <span id="oferta-parceiro">Offer</span>                   
+                </div>
+                <div class="card-footer3">
+                    <h2 id="label-partner">Beauty Partner</h2>
                     <p id="p-partner">Até 2% de desconto adicional na energia e o dobro dos dados móveis</p>
                 </div>
             </div>
