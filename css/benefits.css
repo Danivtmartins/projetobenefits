@@ -252,17 +252,15 @@ height:23px;
 .categories-list {
     height:76px;
     display:flex;
-    flex: row;
+    flex-direction: row;
     overflow-x: auto;
     overflow-y: hidden;
     gap: 20px;
     scrollbar-width: none;
-    list-style-type: none;
-    font-size: 10px;
     padding-left: 20px;
 }
 
-.categories {
+/*.categories {
     border-radius: 50%;
     padding:27px 10px 27px 10px;
     background-color: rgba(255, 255, 255, 1); 
@@ -270,21 +268,31 @@ height:23px;
     height:70px;
     text-align: center;
     border:none;
-}
 
-
-.categories:hover,
-.categories.active {
+    .categories:hover {
     border-width: medium;
     border-style: solid;
     border-color:#fd9cbf;
     cursor: pointer;
 } 
+}*/
 
-.hide {
-    display:none;
-}
-.list-result {
+[type="radio"]{
+    display: none;
+  }
+  
+
+   .categories-list label{
+    padding: 10px 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.25s;
+    color:black;
+    font-size:16px;
+    background-color: white;
+  }
+
+  .list-result {
     display:flex;
     flex-direction: column;
     width:100%;
@@ -293,7 +301,26 @@ height:23px;
     gap:20px;
 }
 
-.card-header3{
+
+/* Style the selected radio button label (optional) */
+.categories-list input:checked + label {
+    background-color: #fd9cbf; /* Your chosen color */
+  }
+
+
+[type="radio"]:nth-of-type(2):checked ~ .list-result .card:not(.travel),
+[type="radio"]:nth-of-type(3):checked ~ .list-result .card:not(.shows),
+[type="radio"]:nth-of-type(4):checked ~ .list-result .card:not(.fashion),
+[type="radio"]:nth-of-type(5):checked ~ .list-result .card:not(.food),
+[type="radio"]:nth-of-type(6):checked ~ .list-result .card:not(.books),
+[type="radio"]:nth-of-type(7):checked ~ .list-result .card:not(.beauty)
+  {
+    display: none;
+  }
+  
+
+
+.card .card-header3{
     width:328px;
     height: 176px;
     border-radius: 20px 20px 0 0;
@@ -309,7 +336,7 @@ height:23px;
   background-size: cover;
   }
 
-  .card-footer3 {
+  .card .card-footer3 {
     color: white;
     background-color: #fd9cbf;
     width: 328px;
@@ -351,7 +378,6 @@ height:23px;
     padding-bottom:50px;
 
 }
-
 
 
 .wallet-nobuttons{

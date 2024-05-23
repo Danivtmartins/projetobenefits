@@ -7,8 +7,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="..\css\benefits.css"> <!--chama o arquivo css externo-->
-     <script async
-     type="text/javascript" src="/./scripts/category.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- This gives the browser instructions on how to control the page's dimensions and scaling.-->
@@ -100,22 +98,33 @@
     <section class="partners-offers">
         <div class="partners-header">
             <h2>Discounts and Offers</h2>
-            <div class="filter-local">
-                <img src="..\images\location-icon.png">
-                New York</div>
+            <!-- Trigger/Open The Modal -->
+            <button class="filter-local"><img src="..\images\location-icon.png">New York</button>
+            <div class="local-content hidden">
+                <h3>Select one option:</h3>
+                <div class="local-list">
+                    <input type="radio"name="filter" id="show all" ><label for="show all">Show All</label>
+                    <input type="radio"name="filter" id="california"><label for="california">California</label>
+                    <input type="radio"name="filter" id="chicago"><label for="chicago">Chicago</label>
+                    <input type="radio"name="filter" id="new york"checked><label for="new york">New York</label>
+                    <input type="radio"name="filter" id="san francisco"><label for="san francisco">San Francisco</label>
+                </div>
+            </div>
         </div>
+
+
         <div class="categories-list"> <!-- Control buttons -->
-            <button class="categories active" category="all" >All</button>
-            <button class="categories" category="travel" >Travel</button>
-            <button class="categories" category="show">Shows</button>
-            <button class="categories" category="fashion">Fashion</button>
-            <button class="categories" category="food">Food</button> 
-            <button class="categories" category="books">Books</button> 
-            <button class="categories" category="beauty">Beauty</button>
+            <input type="radio"  name="filter" id="all" checked ><label for="all">All</label>
+            <input type="radio"  name="filter"  id="travel" ><label for="travel">Travel</label>
+            <input type="radio"  name="filter" id="shows"><label for="shows">Shows</label>
+            <input type="radio"  name="filter"  id="fashion"><label for="fashion">Fashion</label>
+            <input type="radio"  name="filter" id="food"><label for="food">Food</label>
+            <input type="radio"  name="filter" id="books"><label for="books">Books</label>
+            <input type="radio"  name="filter" id="beauty"><label for="beauty">Beauty</label>
         </div>
 
         <div class="list-result">
-            <div class="card-result" category="fashion">
+            <div class="card fashion">
                 <div class="card-header3">
                     <span id="oferta-parceiro">Offer</span>            
                 </div>
@@ -125,7 +134,7 @@
                 </div>
             </div>
 
-            <div class="card-result" category="travel">
+            <div class="card travel">
                 <div class="card-header3">
                     <span id="oferta-parceiro">Offer</span>
                 </div>
@@ -135,10 +144,9 @@
                 </div>
             </div>
 
-            <div class="card-result" category="food">
+            <div class="card food">
                 <div class="card-header3">
                     <span id="oferta-parceiro">Offer</span>
-                    
                 </div>
                 <div class="card-footer3">
                     <h2 id="label-partner">Food Partner</h2>
@@ -146,7 +154,7 @@
                 </div>
             </div>
 
-            <div class="card-result" category="food">
+            <div class="card food">
                 <div class="card-header3">
                     <span id="oferta-parceiro">Offer</span>                    
                 </div>
@@ -156,7 +164,7 @@
                 </div>
             </div>
 
-            <div class="card-result" category="books">
+            <div class="card books">
                 <div class="card-header3">
                     <span id="oferta-parceiro">Offer</span>                    
                 </div>
@@ -166,7 +174,7 @@
                 </div>
             </div>
 
-            <div class="card-result" category="beauty">
+            <div class="card beauty">
                 <div class="card-header3">
                     <span id="oferta-parceiro">Offer</span>                   
                 </div>
