@@ -7,20 +7,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="..\css\location.css"> <!--chama o arquivo css externo-->
+    <script async
+     type="text/javascript" src="/./scripts/location.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- This gives the browser instructions on how to control the page's dimensions and scaling.-->
 </head>
 
 <body>
-    <div class="local-content hidden">
-        <span class="close">&times;</span>
+    <div class="local-content hidden">  
+        <span class="close" onclick="goBack()">&times;</span>
         <h3>Select one option:</h3>
         <div class="local-list">
-            <input type="radio" name="filter" id="show all" ><label for="show all">Show All</label>            
+            <input type="radio" name="filter" id="show all"><label for="show all">Show All</label>            
             <input type="radio" name="filter" id="chicago"><label for="chicago">Chicago</label>
             <input type="radio" name="filter" id="florida"><label for="florida">Florida</label>
-            <input type="radio" name="filter" id="new york"checked><label for="new york">New York</label>
+            <input type="radio" name="filter" id="new york" checked><label for="new york">New York</label>
             <input type="radio" name="filter" id="san francisco"><label for="san francisco">Los Angeles</label>
             <input type="radio" name="filter" id="san diego"><label for="san diego">San Diego</label>
             <input type="radio"name="filter" id="san francisco"><label for="san francisco">San Francisco</label>

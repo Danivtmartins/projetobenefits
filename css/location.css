@@ -34,7 +34,10 @@
     color: black;
     text-decoration: none;
     cursor: pointer;
+
   }
+
+ 
 
   .local-list {
     display:flex;
@@ -42,10 +45,8 @@
     gap: 20px;
     text-align: center;
     height:100%;
-    
     margin-top:50px;
     
-
 }
 
   .local-list input:checked + label {

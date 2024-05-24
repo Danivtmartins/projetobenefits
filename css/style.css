@@ -11,7 +11,7 @@
 .topmenu {
   display: flex;
   justify-content: end;
-  background-color: #225E66;
+  background-color: #ffe8f2;
   padding-top: 20px;
   padding-right: 20px;
   position: sticky;
@@ -37,8 +37,8 @@ body {
 
 
 section.freebenefits {
-  background-color: #225E66;
-  color: white;
+  background-color: #ffe8f2;
+  color: black;
   width: 100%;
   display: flex;
   height: 397px;
@@ -76,7 +76,7 @@ section.freebenefits {
 /*container sessão 2 - push packs edp*/
 
 .pushpacks {
-  background-color: white;
+  background-color:#fd9cbf;
   width: 100%;
   height: 400px;
   display: flex;
@@ -148,7 +148,7 @@ section.freebenefits {
 
 .free-card-footer1 {
   color: white;
-  background-color: #4759D0;
+  background-color: #fd9cbf;
   width: 265px;
   height: 96px;
   border-radius: 0 0 20px 20px;
@@ -159,7 +159,7 @@ section.freebenefits {
 }
 
 #label-partner {
-  background-color: #4759D0;
+  background-color: #fd9cbf;
   margin-left: 15px;
   margin-top: -15px;
   margin-right: 310px;
@@ -181,7 +181,7 @@ section.freebenefits {
 
 
 #packs-container {
-  background-color: #225E66;
+  background-color:#ffe8f2;
   width: 90%;
   height: 300px;
   border-radius: 20px;
@@ -231,7 +231,7 @@ ul.thumb-container {
 button {
   width: 90%;
   height: 55px;
-  background-color: #28FF52;
+  background-color: #ffe8f2;
   color: #222222;
   font-weight: 500;
   font-size: 16px;
@@ -279,7 +279,7 @@ footer {
 }
 
 #footer-navlist a {
-  color: #28FF52;
+  color: #fd9cbf;
   text-align: center;
   height: 30px;
   text-decoration: none;
@@ -365,7 +365,7 @@ footer {
   .topmenu {
     display: flex;
     justify-content: end;
-    background-color: #225E66;
+    background-color: #ffe8f2;
     padding-top: 20px;
     padding-right: 32px;
     position: sticky;
@@ -490,7 +490,7 @@ footer {
 
   .free-card-footer1 {
     color: white;
-    background-color: #4759D0;
+    background-color: #fd9cbf;
     width: 386px;
     height: 92px;
     border-radius: 0 0 20px 20px;
@@ -501,7 +501,7 @@ footer {
     margin-left: 20px;
     margin-top: -15px;
     margin-right: 230px;
-    background-color: #4759D0;
+    background-color: #fd9cbf;
     font-size: 14px;
   }
 
@@ -514,11 +514,11 @@ footer {
 
 
   #packs-container {
-    background-color: #225E66;
+   
     width: 100%;
     height: 211px;
     border-radius: 20px;
-    color: white;
+    color: black;
   }
 
   #h-packs {
@@ -555,7 +555,7 @@ footer {
   button {
     width: 164px;
     height: 48px;
-    background-color: #28FF52;
+    background-color: #fd9cbf;
     color: #222222;
     font-weight: 500;
     font-size: 16px;
@@ -598,7 +598,7 @@ footer {
   }
 
   #footer-navlist a {
-    color: #28FF52;
+    color: #fd9cbf;
     text-align: center;
     height: 30px;
     text-decoration: none;
