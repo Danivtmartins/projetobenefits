@@ -32,8 +32,8 @@
     padding-right:0px;
     padding-bottom:10px;
     border-radius:  20px 20px 0 0;
-    background-color: #28FF52;
-    background-image: radial-gradient(circle at 50% -20%,#0CD3F8 5%, #1AEAA3 10%, #28FF52 -24%, #28FF52 0%, white);
+    background-color: #ed0059;
+    background-image: radial-gradient(circle at 50% -20%,#ffe8f2 5%, #fd9cbf 10%, #ec6197 -24%, #ed0059 0%, white);
     display:flex;
     flex-direction: row;
     justify-content:space-between;
@@ -81,7 +81,7 @@
   .white-part button {
    width: 140px;
    height: 40px;
-   background-color: #28FF52;
+   background-color: #fd9cbf;
    color:#222222;
    font-weight: 500;
    font-size: 13px;

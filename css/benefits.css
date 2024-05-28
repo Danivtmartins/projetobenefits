@@ -290,6 +290,10 @@ height:18px;
 [type="radio"]{
     display: none;
   }
+
+  .hidden {
+    display:none;
+  }
   
 
    .categories-list label{
@@ -318,16 +322,6 @@ height:18px;
   }
 
 
-[type="radio"]:nth-of-type(2):checked ~ .list-result .card:not(.travel),
-[type="radio"]:nth-of-type(3):checked ~ .list-result .card:not(.shows),
-[type="radio"]:nth-of-type(4):checked ~ .list-result .card:not(.fashion),
-[type="radio"]:nth-of-type(5):checked ~ .list-result .card:not(.food),
-[type="radio"]:nth-of-type(6):checked ~ .list-result .card:not(.books),
-[type="radio"]:nth-of-type(7):checked ~ .list-result .card:not(.beauty)
-  {
-    display: none;
-  }
-  
 
 
 .card .card-header3{
