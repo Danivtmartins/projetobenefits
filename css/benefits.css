@@ -5,7 +5,7 @@
     font-family: Mulish;
   }
 
-
+/*wallet section */
 .wallet {
    background-color: #ffe8f2;
    color:rgb(11, 11, 11);
@@ -92,8 +92,8 @@ margin-left:5px;
     gap:10px;
 }
 
- 
 
+/*buttons active vouchers and movements */
 #codes-on{
     background-color: white;
     border:none;
@@ -130,14 +130,13 @@ margin-left:5px;
     cursor: pointer;
 }
 
+
 #free-card-2 {
-     width: 100%;
-    padding-top: 20px;
-    
+    width: 100%;
+    padding-top: 20px;   
 }
 
-.free-card-header2 {
-    
+.free-card-header2 {   
     width: 265px;
     height: 176px;
     border-radius: 20px 20px 0 0;
@@ -149,21 +148,21 @@ margin-left:5px;
     justify-content: flex-start;
     background-image: url("./../images/1.jpg");
     background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  }
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-  #oferta-parceiro {
+#oferta-parceiro {
     margin-right: 230px;
     margin-bottom: 25px;
     font-weight: 500;
     font-size: 12px;
     padding-left: 20px;
     width: 50%;
-  }
+}
 
   .free-card-footer2 {
-    color: white;
+    color: black;
     background-color: #fd9cbf;
     width: 265px;
     height: 96px;
@@ -194,7 +193,7 @@ margin-left:5px;
     width: 230px;
     height: 40px;
     font-size: 12px;
-  }
+}
 
 /*container cards from highlights*/
 
@@ -209,18 +208,16 @@ margin-left:5px;
     overflow-y: hidden;
     gap: 20px;
     scrollbar-width: none;
-  }
+}
 
 .highlights {
     padding:60px 0 0 20px;
     height: 400px;
-
 }
 
 .highlights h2 {
     font-size:16px;
     font-weight:bold;
-
 }
 
 .partners-offers{
@@ -239,15 +236,14 @@ margin-left:5px;
 }
 
 .filter-local{
-border: none;
-background-color:rgba(230, 235, 236, 1);
-padding-bottom:10px;
+    border: none;
+    background-color:rgba(230, 235, 236, 1);
+    padding-bottom:10px;
 }
 
 .filter-local img{
-width:18px;
-height:18px;
-
+    width:18px;
+    height:18px;
 }
 
 .filter-local a{
@@ -259,7 +255,10 @@ height:18px;
     font-size:16px; 
 }
 
-.categories-list {
+
+/*categories section*/
+
+#categories-list {
     height:76px;
     display:flex;
     flex-direction: row;
@@ -287,26 +286,40 @@ height:18px;
 } 
 }*/
 
-[type="radio"]{
-    display: none;
-  }
-
-  .hidden {
-    display:none;
-  }
-  
-
-   .categories-list label{
-    padding: 10px 10px;
+#categories-list .btn{
     border-radius: 12px;
+    padding: 5px 10px;
+    border-width: none;
+    border:none;
     cursor: pointer;
-    transition: 0.25s;
-    color:black;
-    font-size:16px;
-    background-color: white;
+
+}
+
+#categories-list .btn:hover {
+    background-color:#fd9cbf;
+    
+}
+
+#categories-list .btn .active {
+    background-color:#fd9cbf;
+
+}
+
+
+.list-result {
+    overflow: hidden;
   }
 
-  .list-result {
+.card {
+    display:none;
+}
+
+.show {
+    display: block;
+  }
+
+
+.list-result {
     display:flex;
     flex-direction: column;
     width:100%;
@@ -314,13 +327,6 @@ height:18px;
     padding-top: 20px;
     gap:20px;
 }
-
-
-/* Style the selected radio button label (optional) */
-.categories-list input:checked + label {
-    background-color: #fd9cbf; /* Your chosen color */
-  }
-
 
 
 
@@ -336,12 +342,12 @@ height:18px;
     justify-content: flex-start;
     background-image: url("./../images/1.jpg");
     background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+   background-repeat: no-repeat;
+   background-size: cover;
   }
 
   .card .card-footer3 {
-    color: white;
+    color: black;
     background-color: #fd9cbf;
     width: 328px;
     height: 96px;
@@ -386,7 +392,6 @@ height:18px;
 
 }
 
-
 .wallet-nobuttons{
     width:100%;
     display:flex;
@@ -408,7 +413,7 @@ height:70px;
 .buttons-wallet #movements{
     width:170px;
     height:70px;
-    }
+}
 
 .progress-bar {
     width:75%;
@@ -421,13 +426,12 @@ width:386px;
 
 .card-container-highlights .free-card-footer2 {
     width:386px;
- }
+}
 
 .list-result{
     flex-direction:row;
     flex-wrap: wrap;
     padding-left:20px;
-
 }
 
 .change-local{

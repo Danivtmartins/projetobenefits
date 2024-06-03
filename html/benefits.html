@@ -7,6 +7,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="..\css\benefits.css"> <!--chama o arquivo css externo-->
+    <!--<script async type="text/javascript" src="/./scripts/category.js"></script> chama o arquivo css externo-->
+    
     
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -104,14 +106,14 @@
         </div>
 
 
-        <div class="categories-list"> <!-- Control buttons -->
-            <input type="radio"  name="filter" class="category" id="all" checked ><label for="all">All</label>
-            <input type="radio"  name="filter"  class="category" id="travel" ><label for="travel">Travel</label>
-            <input type="radio"  name="filter" class="category" id="shows"><label for="shows">Shows</label>
-            <input type="radio"  name="filter" class="category"  id="fashion"><label for="fashion">Fashion</label>
-            <input type="radio"  name="filter" class="category" id="food"><label for="food">Food</label>
-            <input type="radio"  name="filter" class="category" id="books"><label for="books">Books</label>
-            <input type="radio"  name="filter" class="category" id="beauty"><label for="beauty">Beauty</label>
+        <div id="categories-list"> <!-- Control buttons -->
+            <button class="btn active" onclick="filterSelection('all')">All</button>
+            <button class="btn" onclick="filterSelection('travel')" >Travel</button>
+            <button class="btn" onclick="filterSelection('shows')">Shows</button>
+            <button class="btn" onclick="filterSelection('fashion')">Fashion</button>
+            <button class="btn" onclick="filterSelection('food')">Food</button>
+            <button class="btn" onclick="filterSelection('books')">Books</button>
+            <button class="btn" onclick="filterSelection('beauty')">Beauty</button>
         </div>
 
         <div class="list-result">
@@ -180,4 +182,6 @@
             <span><a href="location.html">Change location</a></span>
         </div>
     </section>
+
+    <script type="text/javascript" src="/./scripts/category.js"></script>
 </body>
