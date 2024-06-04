@@ -1,5 +1,0 @@
-if (typeof document !== 'undefined') {
-
-    
-
-}

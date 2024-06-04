@@ -18,17 +18,17 @@
     <div class="local-content hidden">  
         <span class="close" onclick="goBack()">&times;</span>
         <h3>Select one option:</h3>
-        <div class="local-list">
-            <input type="radio" name="filter" id="show all"><label for="show all">Show All</label>            
-            <input type="radio" name="filter" id="chicago"><label for="chicago">Chicago</label>
-            <input type="radio" name="filter" id="florida"><label for="florida">Florida</label>
-            <input type="radio" name="filter" id="new york" checked><label for="new york">New York</label>
-            <input type="radio" name="filter" id="san francisco"><label for="san francisco">Los Angeles</label>
-            <input type="radio" name="filter" id="san diego"><label for="san diego">San Diego</label>
-            <input type="radio"name="filter" id="san francisco"><label for="san francisco">San Francisco</label>
-            <input type="radio" name="filter" id="houston"><label for="houston">Houston</label>
-            <input type="radio" name="filter" id="philadelphia"><label for="philadelphia">Philadelphia</label>
-            <input type="radio" name="filter" id="seatle"><label for="seatle">Seatle</label>
+        <div id="local-list">
+            <button class="btn-local active" onclick="filterSelection('all')">Show All</button>           
+            <button class="btn-local" onclick="filterSelection('chicago')">Chicago</button>
+            <button class="btn-local" onclick="filterSelection('florida')">Florida </button>
+            <button class="btn-local" onclick="filterSelection('new york')">New York</button>
+            <button class="btn-local" onclick="filterSelection('los angeles')">Los Angeles</button>
+            <button class="btn-local" onclick="filterSelection('san diego')">San Diego</button>
+            <button class="btn-local" onclick="filterSelection('san francisco')">San Francisco</button>
+            <button class="btn-local" onclick="filterSelection('houston')">Houston</button>
+            <button class="btn-local" onclick="filterSelection('philadelphia')">Philadelphia</button>
+            <button class="btn-local" onclick="filterSelection('seatle')">Seatle</button>
         </div>
     </div>
 </body>

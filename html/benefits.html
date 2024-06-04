@@ -8,7 +8,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="..\css\benefits.css"> <!--chama o arquivo css externo-->
     <!--<script async type="text/javascript" src="/./scripts/category.js"></script> chama o arquivo css externo-->
-    
+    <link rel="stylesheet" href="..\css/location.css">
     
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -99,10 +99,25 @@
         
 
     <section class="partners-offers">
-        <div class="partners-header">
+        <div class="partners-header"> <!-- container region-->
             <h2>Discounts and Offers</h2>
             <!-- Trigger/Open The Modal -->
-            <button class="filter-local"><img src="..\images\location-icon.png"><a href="location.html">New York</a></button>
+            <button class="region-button" id="selectRegionButton"><span>New York</span></button>
+            
+            <div id="regionModal" class="modal">
+                <div class="local-content">  
+                    <span class="close">&times;</span>
+                    <h3>Select one option:</h3>
+                    <div id="local-list">
+                        <button class="btn-local" data-region="Show All">Show All</button>           
+                        <button class="btn-local" data-region="Chicago">Chicago</button>
+                        <button class="btn-local" data-region="Florida">Florida </button>
+                        <button class="btn-local" data-region="New york">New York</button>
+                        <button class="btn-local" data-region="Los angeles">Los Angeles</button>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
 
@@ -137,7 +152,7 @@
                 </div>
             </div>
 
-            <div class="card food">
+            <div class="card seatle food">
                 <div class="card-header3">
                     <span id="oferta-parceiro">Offer</span>
                 </div>
@@ -147,7 +162,7 @@
                 </div>
             </div>
 
-            <div class="card food">
+            <div class="card new york food">
                 <div class="card-header3">
                     <span id="oferta-parceiro">Offer</span>                    
                 </div>
@@ -184,4 +199,5 @@
     </section>
 
     <script type="text/javascript" src="/./scripts/category.js"></script>
+    <script type="text/javascript" src="/./scripts/region.js"></script>
 </body>
